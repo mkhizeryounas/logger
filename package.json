@@ -1,15 +1,27 @@
 {
-  "name": "njs-logger",
-  "version": "1.0.1",
-  "description": "",
+  "name": "logger",
+  "version": "1.0.0",
+  "description": "This is a simple nodejs based logger.",
   "main": "index.js",
+  "dependencies": {
+    "cli-color": "^2.0.2"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"No test specified\" && exit 0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkhizeryounas/logger.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "cli-color": "^2.0.2"
-  }
+  "bugs": {
+    "url": "https://github.com/mkhizeryounas/logger/issues"
+  },
+  "homepage": "https://github.com/mkhizeryounas/logger#readme"
 }
