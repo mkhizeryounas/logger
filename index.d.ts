@@ -1,7 +1,5 @@
-const logFn = function(log:string):void {};
-
-export const debug = logFn;
-export const log = logFn;
-export const info = logFn;
-export const warn = logFn;
-export const error = logFn;
+export function debug(log:string):void;
+export function log (log:string):void;
+export function info (log:string):void;
+export function warn (log:string):void;
+export function error (log:string):void;

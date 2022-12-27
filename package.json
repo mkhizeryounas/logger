@@ -6,7 +6,6 @@
   "dependencies": {
     "cli-color": "^2.0.2"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"No test specified\" && exit 0"
   },
